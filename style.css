@@ -8,12 +8,20 @@ body {
   font-family: 'Aldrich', sans-serif;
 }
 
+.glitch-container{
+
+  height: 100%;
+  display: flex;
+
+}
+
 .glitch {
   color: #87F717;
   font-size: 100px;
   position: relative;
   width: 400px;
-  margin: 0 auto;
+  height: 88px;
+  margin: auto;
   text-shadow: 0 0 8px #87f717;
 }
 
