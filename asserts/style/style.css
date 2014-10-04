@@ -3,9 +3,22 @@ html, body {
   height: 100%;
   margin: 0;
 }
+@font-face {
+    font-family: 'matrix';
+    src: url('../fonts/matrix-webfont.svg#matrixregular') format('svg');
+    src: url('../fonts/matrix-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/matrix-webfont.woff2') format('woff2'),
+         url('../fonts/matrix-webfont.woff') format('woff'),
+         url('../fonts/matrix-webfont.ttf') format('truetype'),
+         url('../fonts/matrix-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
   background: #000;
-  font-family: 'Aldrich', sans-serif;
+  font-family: 'matrix', sans-serif;
+  background: url(../img/bg.png);
 }
 
 .glitch-container{
